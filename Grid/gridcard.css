@@ -1,0 +1,59 @@
+#cards{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.d1{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.d1 > img{
+    width:70%;
+    height: 50%;
+    padding-left: 25px;
+    margin: 10px;
+}
+p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:initial;
+    font-weight: 900;
+    color:darkcyan;
+
+}
+span{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#b1{
+    margin-left: 40px;
+    background-color: lightgreen;
+    margin:20px;
+    font-size: 15px;
+    font-style:oblique;
+    font-weight: bold;
+}
+#b1:hover{
+    background-color: pink;
+
+}
+button{
+    background-color: lightgreen;
+    font-size: 15px;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+}
+button:hover{
+    background-color: pink;
+}
